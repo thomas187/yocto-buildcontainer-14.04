@@ -1,0 +1,22 @@
+{
+  "name": "@thomas187/yocto-buildcontainer-14.04",
+  "version": "1.0.0",
+  "description": "Prima versione",
+  "main": "docker-compose.yml",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomas187/yocto-buildcontainer-14.04.git"
+  },
+  "author": "thomas187",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomas187/yocto-buildcontainer-14.04/issues"
+  },
+  "homepage": "https://github.com/thomas187/yocto-buildcontainer-14.04#readme",
+  "publishConfig": {
+  "@thomas187:registry": "https://npm.pkg.github.com"
+  }
+}
