@@ -5,7 +5,7 @@ services:
     #image: yocto-buildcontainer
     #build: docker
     # Use 'image' to download directly from registry
-    image: ghcr.io/embeddedlinuxacademy/yocto-buildcontainer/yocto-buildcontainer:0.3
+    image: ghcr.io/thomas187/yocto-buildcontainer-14.04/thomas187/yocto-buildcontainer-14.04:latest
     volumes:
       - ./workspace:/home/dev/workspace
     environment:

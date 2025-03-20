@@ -1,9 +1,9 @@
 FROM ubuntu:14.04
 
 # variables
-ENV USER=dev
+ENV USER=root
 ENV USER_ID=1000
-ENV PASSWORD=docker
+ENV PASSWORD=0000
 ENV WORKSPACE=/home/$USER/workspace
 
 # install general tools
